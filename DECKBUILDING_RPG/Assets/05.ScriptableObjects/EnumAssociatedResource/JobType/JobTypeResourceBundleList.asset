@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b5dc4b8d8790ab4099935422251d037, type: 3}
+  m_Name: JobTypeResourceBundleList
+  m_EditorClassIdentifier: 
+  bundleList:
+  - job: 2
+    dialogSprite: {fileID: -4979476956480188833, guid: ca38f9313e7e1fe4590a4adbe55532c9, type: 3}
+    infoSprite: {fileID: -4979476956480188833, guid: ca38f9313e7e1fe4590a4adbe55532c9, type: 3}
+    name: "\uCE74\uC6B0\uBCF4\uC774"
+    description: "\uCD1D\uC740 \uCD5C\uACE0\uC758 \uB300\uD654 \uC218\uB2E8\uC785\uB2C8\uB2E4."
+  - job: 3
+    dialogSprite: {fileID: -4979476956480188833, guid: ca38f9313e7e1fe4590a4adbe55532c9, type: 3}
+    infoSprite: {fileID: -4979476956480188833, guid: ca38f9313e7e1fe4590a4adbe55532c9, type: 3}
+    name: "\uAC1C\uBC1C\uC790"
+    description: "\uAC1C\uBC1C\uC6A9 \uCE90\uB9AD\uD130\uC785\uB2C8\uB2E4."

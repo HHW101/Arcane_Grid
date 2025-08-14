@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be5a7d3e5d21ffd4bb7e72e38faefae7, type: 3}
+  m_Name: Floor3BossStagePreview
+  m_EditorClassIdentifier: 
+  radius: 5
+  stageType: 2
+  stageNPCTable:
+    fixedNPCPrefabs:
+    - {fileID: 8334389866706994609, guid: 2ead0752dc241d44baeaa20c34a8890b, type: 3}
+    randomNPCPrefabEntries: []
+    randomSpawnCount: 1
+  elevationSeedRules:
+  - elevation: 4
+    count: 1
+    spreadRange: 3
+    receiveRange: 3
+  - elevation: -3
+    count: 1
+    spreadRange: 3
+    receiveRange: 2
+  - elevation: 2
+    count: 1
+    spreadRange: 3
+    receiveRange: 2
+  elevationMap:
+  - minHeight: -3
+    maxHeight: -2
+    tileType: 12
+  - minHeight: -1
+    maxHeight: 2
+    tileType: 11
+  - minHeight: 3
+    maxHeight: 3
+    tileType: 10
+  - minHeight: 4
+    maxHeight: 4
+    tileType: 9
+  cliffHeightThreshold: 2
+  allowWater: 1
+  allowCliff: 1
+  allowBridge: 1

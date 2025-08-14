@@ -1,0 +1,21 @@
+﻿[
+  {
+    "ID": "1",
+    "nameKey": "파이어볼",
+    "flavorTextKey": "불꽃을 던집니다",
+    "effects": [
+      1,
+      2
+    ],
+    "cost": "5"
+  },
+  {
+    "ID": "2",
+    "nameKey": "공격",
+    "flavorTextKey": "일반 공격",
+    "effects": [
+      1
+    ],
+    "cost": "4"
+  }
+]

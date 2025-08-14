@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0aa41ad5cf9281d4eb8ab80ae4324502, type: 3}
+  m_Name: JumpAttack
+  m_EditorClassIdentifier: 
+  attackName: JumpAttack
+  description: Hit The Target With Jump
+  category: 3
+  specialType: 1
+  damage: 8
+  range: 3
+  apCost: 1
+  cooldown: 2
+  effects:
+    effectPrefab: {fileID: 0}
+    projectilePrefab: {fileID: 0}
+    sfx: {fileID: 0}
+  statusEffects:
+  - {fileID: 11400000, guid: 1960941f5f316314c844f70e9d1f8c8d, type: 2}
+  jumpHeight: 2
+  jumpDuration: 0.5

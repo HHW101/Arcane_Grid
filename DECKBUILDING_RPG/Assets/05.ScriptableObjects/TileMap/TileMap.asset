@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10c8524005259bd458afc20645477a8d, type: 3}
+  m_Name: TileMap
+  m_EditorClassIdentifier: 
+  tileList:
+  - tileType: 6
+    tilePrefab: {fileID: 6624397237744117092, guid: 86475a2aee9d8de42a5b1ea60c5c7ea4, type: 3}
+  - tileType: 2
+    tilePrefab: {fileID: 1663270519630491960, guid: fcc5d4849abd5764fb6dd19c136adbd8, type: 3}
+  - tileType: 17
+    tilePrefab: {fileID: 6624397237744117092, guid: f316662a3b7300e4b8fa4721f5fcc95f, type: 3}
+  - tileType: 18
+    tilePrefab: {fileID: 6624397237744117092, guid: 85391871342706d41acc42089f5106cc, type: 3}
+  - tileType: 19
+    tilePrefab: {fileID: 6624397237744117092, guid: 82ea6144e8c04604f96e3ee75e244b93, type: 3}
+  - tileType: 20
+    tilePrefab: {fileID: 6624397237744117092, guid: 4354561bb2cba1346a71b4ae16b6dd6b, type: 3}

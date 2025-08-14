@@ -1,0 +1,259 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 783dc30a122e8e04b9d4cf0918afc739, type: 3}
+  m_Name: Developer
+  m_EditorClassIdentifier: 
+  jobName: "\uAC1C\uBC1C\uC790"
+  jobDescription: "\uAC1C\uBC1C\uC6A9"
+  jobDefaultPlayerData:
+    unitTypeList: 03000000
+    portraitPath: Portraits/CowBoy
+    currentHealth: 200
+    maxHealth: 200
+    unitIdentifierType: 2
+    prefabPath: Prefabs/Job/Developer
+    jobEnum: 3
+    currentMana: 150
+    level: 1
+    experience: 0
+    coin: 300
+    actionPoint: 100
+    technicalPoint: 6
+    meleeAttackRange: 100
+    gunRange: 3
+    interactRange: 1
+    radius: 100
+    defaultAttack: 100
+    pushForce: 0
+    actionPointPerMove: 1
+    actionPointPerAttack: 1
+    actionPointPerInteract: 0
+    maxMana: 150
+    maxLevel: 100
+    maxExperience: 100
+    maxCoin: 100
+    maxActionPoint: 100
+    maxTechnicalPoint: 6
+    isDead: 0
+    isStunned: 0
+    cards:
+      deck:
+      - id: 100
+        cardTemplate:
+          ID: 100
+          nameKey: "\uB2E4\uC774\uB108\uB9C8\uC774\uD2B8"
+          flavorTextKey: "\uC77C\uBC18 \uACF5\uACA9"
+          effects: 64000000
+          cost: 4
+          img: temp
+          isGun: 0
+          price: 0
+        fusioneffects: []
+        isFusion: 0
+      - id: 100
+        cardTemplate:
+          ID: 100
+          nameKey: "\uB2E4\uC774\uB108\uB9C8\uC774\uD2B8"
+          flavorTextKey: "\uC77C\uBC18 \uACF5\uACA9"
+          effects: 64000000
+          cost: 4
+          img: temp
+          isGun: 0
+          price: 0
+        fusioneffects: []
+        isFusion: 0
+      - id: 200
+        cardTemplate:
+          ID: 200
+          nameKey: "\uAC00\uC8FD \uAC11\uC637"
+          flavorTextKey: "\uC77C\uBC18 \uBC29\uC5B4\uB825"
+          effects: c8000000
+          cost: 3
+          img: temp
+          isGun: 0
+          price: 0
+        fusioneffects: []
+        isFusion: 0
+      - id: 200
+        cardTemplate:
+          ID: 200
+          nameKey: "\uAC00\uC8FD \uAC11\uC637"
+          flavorTextKey: "\uC77C\uBC18 \uBC29\uC5B4\uB825"
+          effects: c8000000
+          cost: 3
+          img: temp
+          isGun: 0
+          price: 0
+        fusioneffects: []
+        isFusion: 0
+      - id: 300
+        cardTemplate:
+          ID: 300
+          nameKey: "\uB9E5\uC8FC"
+          flavorTextKey: "\uC77C\uBC18 \uCE58\uB8CC"
+          effects: 2c010000
+          cost: 3
+          img: temp
+          isGun: 0
+          price: 0
+        fusioneffects: []
+        isFusion: 0
+      - id: 1100
+        cardTemplate:
+          ID: 1100
+          nameKey: "\uC12C\uAD11\uD0C4"
+          flavorTextKey: "\uC77C\uBC18 \uC2A4\uD134"
+          effects: 4c040000
+          cost: 3
+          img: temp
+          isGun: 0
+          price: 0
+        fusioneffects: []
+        isFusion: 0
+      - id: 1100
+        cardTemplate:
+          ID: 1100
+          nameKey: "\uC12C\uAD11\uD0C4"
+          flavorTextKey: "\uC77C\uBC18 \uC2A4\uD134"
+          effects: 4c040000
+          cost: 3
+          img: temp
+          isGun: 0
+          price: 0
+        fusioneffects: []
+        isFusion: 0
+      - id: 1200
+        cardTemplate:
+          ID: 1200
+          nameKey: "\uD683\uBD88"
+          flavorTextKey: "\uC77C\uBC18 \uD654\uC0C1"
+          effects: b0040000
+          cost: 3
+          img: temp
+          isGun: 0
+          price: 0
+        fusioneffects: []
+        isFusion: 0
+      - id: 1200
+        cardTemplate:
+          ID: 1200
+          nameKey: "\uD683\uBD88"
+          flavorTextKey: "\uC77C\uBC18 \uD654\uC0C1"
+          effects: b0040000
+          cost: 3
+          img: temp
+          isGun: 0
+          price: 0
+        fusioneffects: []
+        isFusion: 0
+      - id: 1300
+        cardTemplate:
+          ID: 1300
+          nameKey: "\uB3C5\uC57D"
+          flavorTextKey: "\uC77C\uBC18 \uC911\uB3C5"
+          effects: 14050000
+          cost: 3
+          img: temp
+          isGun: 0
+          price: 0
+        fusioneffects: []
+        isFusion: 0
+      - id: 1300
+        cardTemplate:
+          ID: 1300
+          nameKey: "\uB3C5\uC57D"
+          flavorTextKey: "\uC77C\uBC18 \uC911\uB3C5"
+          effects: 14050000
+          cost: 3
+          img: temp
+          isGun: 0
+          price: 0
+        fusioneffects: []
+        isFusion: 0
+      - id: 10100
+        cardTemplate:
+          ID: 10100
+          nameKey: "\uC77C\uBC18\uD0C4"
+          flavorTextKey: "\uC77C\uBC18 \uCD1D\uC54C"
+          effects: 64000000
+          cost: 3
+          img: temp
+          isGun: 1
+          price: 0
+        fusioneffects: []
+        isFusion: 0
+      - id: 10100
+        cardTemplate:
+          ID: 10100
+          nameKey: "\uC77C\uBC18\uD0C4"
+          flavorTextKey: "\uC77C\uBC18 \uCD1D\uC54C"
+          effects: 64000000
+          cost: 3
+          img: temp
+          isGun: 1
+          price: 0
+        fusioneffects: []
+        isFusion: 0
+      - id: 0
+        cardTemplate:
+          ID: 0
+          nameKey: "\uB9AC\uB85C\uB4DC"
+          flavorTextKey: "\uC77C\uBC18 \uCE74\uB4DC \uCD94\uAC00"
+          effects: 10270000
+          cost: 3
+          img: temp
+          isGun: 0
+          price: 0
+        fusioneffects: []
+        isFusion: 0
+      - id: 0
+        cardTemplate:
+          ID: 0
+          nameKey: "\uB9AC\uB85C\uB4DC"
+          flavorTextKey: "\uC77C\uBC18 \uCE74\uB4DC \uCD94\uAC00"
+          effects: 10270000
+          cost: 3
+          img: temp
+          isGun: 0
+          price: 0
+        fusioneffects: []
+        isFusion: 0
+      pack:
+      - id: 100
+        cardTemplate:
+          ID: 100
+          nameKey: "\uB2E4\uC774\uB108\uB9C8\uC774\uD2B8"
+          flavorTextKey: "\uC77C\uBC18 \uACF5\uACA9"
+          effects: 64000000
+          cost: 4
+          img: temp
+          isGun: 0
+          price: 0
+        fusioneffects: []
+        isFusion: 0
+      - id: 100
+        cardTemplate:
+          ID: 100
+          nameKey: "\uB2E4\uC774\uB108\uB9C8\uC774\uD2B8"
+          flavorTextKey: "\uC77C\uBC18 \uACF5\uACA9"
+          effects: 64000000
+          cost: 4
+          img: temp
+          isGun: 0
+          price: 0
+        fusioneffects: []
+        isFusion: 0
+      trashZone: []
+      hand: []
+      gun: []
+  jobSprite: {fileID: 21300000, guid: 261c0a815a31d4e4cbc982149e1b432b, type: 3}
+  jobIcon: {fileID: 21300000, guid: fe73bdaa48efe1a47b82738a356d8438, type: 3}

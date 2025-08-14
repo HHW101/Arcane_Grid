@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31c4d6b30540b494a83ab0216a6cae64, type: 3}
+  m_Name: StageStoryBookSO
+  m_EditorClassIdentifier: 
+  announceStringListList:
+  - stageType: 0
+    stagStageStorySO: {fileID: 11400000, guid: 06f94282588a9ca4095812a572398fc5, type: 2}
+  - stageType: 1
+    stagStageStorySO: {fileID: 11400000, guid: c22bcf371aa345543a7dcd4e687ec779, type: 2}
+  - stageType: 2
+    stagStageStorySO: {fileID: 11400000, guid: f66500aac9a73594f94a9564ce60dc12, type: 2}
+  - stageType: 3
+    stagStageStorySO: {fileID: 11400000, guid: 75192eaa95a619145a560a6357c827a9, type: 2}
+  - stageType: 4
+    stagStageStorySO: {fileID: 11400000, guid: 4b1fdf168e7588e45b7e8211d06a9f34, type: 2}
+  - stageType: 5
+    stagStageStorySO: {fileID: 11400000, guid: e6fa40c05bfc01a4b9ee957e46f5716c, type: 2}
+  - stageType: 6
+    stagStageStorySO: {fileID: 11400000, guid: 75192eaa95a619145a560a6357c827a9, type: 2}
+  - stageType: 7
+    stagStageStorySO: {fileID: 11400000, guid: 8f357687fffaf2b468964bb042a41637, type: 2}

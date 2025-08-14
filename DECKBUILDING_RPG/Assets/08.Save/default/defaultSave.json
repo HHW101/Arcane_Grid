@@ -1,0 +1,15 @@
+﻿{
+    "playerData": {
+        "prefabPath": "Prefabs/Player/Player",
+        "CurrentHealth": 100.0,
+        "CurrentMana": 100.0,
+        "Level": 1,
+        "Experience": 0.0,
+        "Coin": 0,
+        "MaxHealth": 100,
+        "MaxMana": 100,
+        "MaxLevel": 100,
+        "MaxExperience": 100,
+        "MaxCoin": 999999
+    }
+}

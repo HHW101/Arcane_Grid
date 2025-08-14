@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be5a7d3e5d21ffd4bb7e72e38faefae7, type: 3}
+  m_Name: Floor1DefaultStagePreview
+  m_EditorClassIdentifier: 
+  radius: 6
+  stageType: 0
+  stageNPCTable:
+    fixedNPCPrefaEntries: []
+    randomNPCPrefabEntries:
+    - prefab: {fileID: 8334389866706994609, guid: 63d096e8e5d943a49bdaea162ee9ea4e, type: 3}
+      weight: 1
+    - prefab: {fileID: 8334389866706994609, guid: 8783b31c34cc5964db2f76735f74d2bb, type: 3}
+      weight: 1
+    randomSpawnCount: 2
+  elevationSeedRules:
+  - elevation: 5
+    count: 1
+    spreadRange: 5
+    receiveRange: 3
+  - elevation: -3
+    count: 3
+    spreadRange: 3
+    receiveRange: 2
+  - elevation: 3
+    count: 1
+    spreadRange: 3
+    receiveRange: 2
+  elevationMap:
+  - minHeight: -3
+    maxHeight: -2
+    tileType: 6
+  - minHeight: -1
+    maxHeight: -1
+    tileType: 8
+  - minHeight: 0
+    maxHeight: 2
+    tileType: 1
+  - minHeight: 3
+    maxHeight: 5
+    tileType: 5
+  cliffHeightThreshold: 2
+  allowWater: 1
+  allowCliff: 1
+  allowBridge: 1
+  isPlayerCoordFixed: 0
+  playerHexCoord:
+    q: 0
+    r: 0

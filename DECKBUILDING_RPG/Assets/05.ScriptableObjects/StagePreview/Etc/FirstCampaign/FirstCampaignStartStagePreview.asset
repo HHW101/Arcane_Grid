@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be5a7d3e5d21ffd4bb7e72e38faefae7, type: 3}
+  m_Name: FirstCampaignStartStagePreview
+  m_EditorClassIdentifier: 
+  radius: 4
+  stageType: 3
+  stageNPCTable:
+    fixedNPCPrefaEntries:
+    - prefab: {fileID: 8334389866706994609, guid: e7873e45ec14c654cb79c3ee7c97be6a, type: 3}
+      isNPCCoordFixed: 0
+      npcHexCoord:
+        q: 0
+        r: 0
+    - prefab: {fileID: 8334389866706994609, guid: 4cbe2ff43142bfb40bba7cf203fe4dce, type: 3}
+      isNPCCoordFixed: 0
+      npcHexCoord:
+        q: 0
+        r: 0
+    randomNPCPrefabEntries:
+    - prefab: {fileID: 8334389866706994609, guid: 2b763b63a6402aa40b8349013a89d850, type: 3}
+      weight: 1
+    - prefab: {fileID: 8334389866706994609, guid: a98fa795056020a42b5710f53bc4276d, type: 3}
+      weight: 1
+    randomSpawnCount: 2
+  elevationSeedRules: []
+  elevationMap:
+  - minHeight: -3
+    maxHeight: 3
+    tileType: 17
+  cliffHeightThreshold: 2
+  allowWater: 1
+  allowCliff: 1
+  allowBridge: 1
+  isPlayerCoordFixed: 1
+  playerHexCoord:
+    q: 0
+    r: 0

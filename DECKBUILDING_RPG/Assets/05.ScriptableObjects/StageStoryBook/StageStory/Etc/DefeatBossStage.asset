@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4148635a7b755c9439eb3fc1f6d41e26, type: 3}
+  m_Name: DefeatBossStage
+  m_EditorClassIdentifier: 
+  phaseStoryList:
+  - dialogResourceSO: {fileID: 0}
+    announceResourceSO: {fileID: 11400000, guid: 69c54195a118da842a30d988fc35ffef, type: 2}
+    imageResourceSO: {fileID: 0}
+  clearStoryList:
+  - dialogResourceSO: {fileID: 0}
+    announceResourceSO: {fileID: 11400000, guid: 02087a0c1bc551147a27e770f4e9f22b, type: 2}
+    imageResourceSO: {fileID: 0}
+  failStoryList:
+  - dialogResourceSO: {fileID: 0}
+    announceResourceSO: {fileID: 11400000, guid: 8d0395c10df5dc94ea33e3e7b092bd92, type: 2}
+    imageResourceSO: {fileID: 0}
+  announceSecondPerString: 5

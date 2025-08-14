@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34449bb2521a2ca47839b608c4fde6b1, type: 3}
+  m_Name: TutorialEscapeStage
+  m_EditorClassIdentifier: 
+  dialogEntryList:
+  - leftDialogSpriteType: 0
+    rightDialogSpriteType: 0
+    leftShade: 0
+    rightShade: 0
+    dialogText: "\uD2B9\uC815 \uC2A4\uD14C\uC774\uC9C0\uB294 \uBAA8\uB4E0 \uC801\uC744
+      \uC4F0\uB7EC\uB728\uB9AC\uB294 \uAC83 \uC678\uC758 \uB2E4\uB978 \uBAA9\uD45C\uB97C
+      \uC644\uC218\uD574\uC57C \uD558\uAE30\uB3C4 \uD569\uB2C8\uB2E4."
+    leftFlip: 0
+    rightFlip: 0
+  - leftDialogSpriteType: 0
+    rightDialogSpriteType: 0
+    leftShade: 0
+    rightShade: 0
+    dialogText: "\uC774 \uC2A4\uD14C\uC774\uC9C0\uB294 \uC801\uC744 \uBAA8\uB450
+      \uC4F0\uB7EC\uB728\uB824\uB3C4 \uD074\uB9AC\uC5B4 \uD560 \uC218 \uC5C6\uACE0
+      \uCD9C\uAD6C\uC5D0 \uB3C4\uB2EC\uD574\uC57C \uD569\uB2C8\uB2E4."
+    leftFlip: 0
+    rightFlip: 0
+  waitBetweenDialogSecond: 10

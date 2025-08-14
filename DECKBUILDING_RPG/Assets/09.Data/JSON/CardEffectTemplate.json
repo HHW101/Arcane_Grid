@@ -1,0 +1,14 @@
+﻿[
+  {
+    "ID": "1",
+    "nameKey": "불꽃",
+    "type": "attack",
+    "value": "5"
+  },
+  {
+    "ID": "2",
+    "nameKey": "빙결",
+    "type": "attack",
+    "value": "3"
+  }
+]

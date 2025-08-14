@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34449bb2521a2ca47839b608c4fde6b1, type: 3}
+  m_Name: TutorialStartStage
+  m_EditorClassIdentifier: 
+  dialogEntryList:
+  - leftDialogSpriteType: 2
+    rightDialogSpriteType: 0
+    leftShade: 0
+    rightShade: 0
+    dialogText: "\uC5EC\uAE30\uAC00 \uBB38\uC81C\uC758 \uC11C\uBD80\uC2DC\uB300\uC778\uAC00"
+    leftFlip: 0
+    rightFlip: 0
+  - leftDialogSpriteType: 2
+    rightDialogSpriteType: 0
+    leftShade: 0
+    rightShade: 1
+    dialogText: "\uC815\uBCF4\uAC00 \uD544\uC694\uD558\uB2C8 \uC800\uAE30 EBS\uC5D0
+      \uB098\uC62C\uAC83\uAC19\uC774 \uC0DD\uAE34 \uC0AC\uB78C\uB4E4\uC5D0\uAC8C
+      \uBB3C\uC5B4\uBD10\uC57C\uACA0\uAD70"
+    leftFlip: 0
+    rightFlip: 0
+  - leftDialogSpriteType: 2
+    rightDialogSpriteType: 23
+    leftShade: 0
+    rightShade: 1
+    dialogText: "\uC548\uB155\uD558\uC138\uC694? \uB9D0\uC500\uC880 \uC5EC\uCB59\uACA0\uC2B5\uB2C8\uB2E4"
+    leftFlip: 0
+    rightFlip: 1
+  - leftDialogSpriteType: 2
+    rightDialogSpriteType: 23
+    leftShade: 0
+    rightShade: 1
+    dialogText: "\uC694\uC998\uB4E4\uC5B4 \uC774\uC0C1\uD55C \uC77C\uB4E4\uC774 \uC0DD\uAE34\uB2E4\uACE0
+      \uD558\uB358\uB370 \uBB34\uC2A8\uC77C\uC778\uAC00\uC694?"
+    leftFlip: 0
+    rightFlip: 1
+  - leftDialogSpriteType: 2
+    rightDialogSpriteType: 23
+    leftShade: 1
+    rightShade: 0
+    dialogText: "\uB9D0\uB3C4\uB9C8\uC1FC \uC18C\uB4E4\uC774 \uBBF8\uCCD0\uAC00 \uB09C\uB9AC\uB3C4
+      \uC544\uB2C8\uC624 \uC0AC\uB78C\uB4E4 \uB9C9 \uB69C\uB450\uB7EC \uD328\uACE0
+      \uC5BC\uB9C8\uC804\uC5D0\uB294 \uB9D0\uC744 \uC7A1\uC544\uBA39\uB294\uAC83\uB3C4
+      \uBCF4\uC558\uC18C"
+    leftFlip: 0
+    rightFlip: 1
+  - leftDialogSpriteType: 2
+    rightDialogSpriteType: 25
+    leftShade: 1
+    rightShade: 0
+    dialogText: "\uC815\uB9D0 \uC5B4\uCA5C \uC88B\uC544\uC694 \uAC11\uC790\uAE30
+      \uC18C\uB4E4\uC774 \uC65C\uC800\uB7F0\uB2F4 "
+    leftFlip: 0
+    rightFlip: 1
+  - leftDialogSpriteType: 2
+    rightDialogSpriteType: 25
+    leftShade: 0
+    rightShade: 1
+    dialogText: "\uC18C\uB4E4\uC774\uB77C.."
+    leftFlip: 0
+    rightFlip: 1
+  - leftDialogSpriteType: 0
+    rightDialogSpriteType: 0
+    leftShade: 0
+    rightShade: 1
+    dialogText: "\uCE74\uB4DC \uC911 \uCD1D\uC54C \uCE74\uB4DC\uB294 \uCD1D\uC5D0
+      \uB4DC\uB798\uADF8\uD574\uC57C \uC0AC\uC6A9 \uAC00\uB2A5\uD569\uB2C8\uB2E4"
+    leftFlip: 0
+    rightFlip: 1
+  waitBetweenDialogSecond: 10

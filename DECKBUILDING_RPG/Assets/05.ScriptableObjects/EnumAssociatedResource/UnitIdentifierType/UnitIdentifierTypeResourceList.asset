@@ -1,0 +1,115 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d542537dc57ab324c8664d6bfe5999a0, type: 3}
+  m_Name: UnitIdentifierTypeResourceList
+  m_EditorClassIdentifier: 
+  bundleList:
+  - unitType: 15
+    dialogSprite: {fileID: 21300000, guid: e082166af5cb5b347a7a3b10a1e7141b, type: 3}
+    infoSprite: {fileID: 21300000, guid: e082166af5cb5b347a7a3b10a1e7141b, type: 3}
+    name: "\uBE68\uAC04 \uD669\uC18C"
+    description: "\uD56D\uC0C1 \uD654\uAC00 \uB098 \uC788\uC2B5\uB2C8\uB2E4."
+  - unitType: 16
+    dialogSprite: {fileID: 21300000, guid: 007cd229aff0a9f4c8b63dde153e2e77, type: 3}
+    infoSprite: {fileID: 21300000, guid: 007cd229aff0a9f4c8b63dde153e2e77, type: 3}
+    name: "\uD30C\uB780 \uD669\uC18C"
+    description: "\uD56D\uC0C1 \uBE68\uAC04 \uD669\uC18C\uBCF4\uB2E4 \uC880 \uB354
+      \uD654\uAC00 \uB098 \uC788\uC2B5\uB2C8\uB2E4."
+  - unitType: 17
+    dialogSprite: {fileID: 21300000, guid: 60aa70514327ccc49ae2594406581523, type: 3}
+    infoSprite: {fileID: 21300000, guid: 60aa70514327ccc49ae2594406581523, type: 3}
+    name: "\uC5B4\uB9B0 \uBE68\uAC04 \uD669\uC18C"
+    description: "\uC720\uC21C\uD558\uBA74\uC11C \uACF5\uACA9\uC801\uC785\uB2C8\uB2E4."
+  - unitType: 18
+    dialogSprite: {fileID: 21300000, guid: 4fda253add5fd464ab547e754dec178e, type: 3}
+    infoSprite: {fileID: 21300000, guid: 4fda253add5fd464ab547e754dec178e, type: 3}
+    name: "\uC5B4\uB9B0 \uD30C\uB780 \uD669\uC18C"
+    description: "\uC720\uC21C\uD558\uBA74\uC11C \uACF5\uACA9\uC801\uC785\uB2C8\uB2E4."
+  - unitType: 19
+    dialogSprite: {fileID: -1499072938, guid: a648e86b87d6ee04abab5fa19065dc85, type: 3}
+    infoSprite: {fileID: -1499072938, guid: a648e86b87d6ee04abab5fa19065dc85, type: 3}
+    name: "\uBE68\uAC04 \uD669\uC18C \uC600\uB358 \uAC83"
+    description: "\uD55C \uB54C\uB294 \uD654\uB97C \uB0B4\uACE0 \uC788\uC5C8\uC2B5\uB2C8\uB2E4."
+  - unitType: 20
+    dialogSprite: {fileID: -1499072938, guid: a648e86b87d6ee04abab5fa19065dc85, type: 3}
+    infoSprite: {fileID: -1499072938, guid: a648e86b87d6ee04abab5fa19065dc85, type: 3}
+    name: "\uD30C\uB780 \uD669\uC18C \uC600\uB358 \uAC83"
+    description: "\uD55C \uB54C\uB294 \uBE68\uAC04 \uD669\uC18C\uBCF4\uB2E4 \uC880
+      \uB354 \uD654\uB97C \uB0B4\uACE0 \uC788\uC5C8\uC2B5\uB2C8\uB2E4."
+  - unitType: 21
+    dialogSprite: {fileID: -2040348199, guid: 44a0a09bb6ac63d4eae96fb32c6531df, type: 3}
+    infoSprite: {fileID: -2040348199, guid: 44a0a09bb6ac63d4eae96fb32c6531df, type: 3}
+    name: "\uC5B4\uB9B0 \uBE68\uAC04 \uD669\uC18C \uC600\uB358 \uAC83"
+    description: "\uD55C \uB54C\uB294 \uC720\uC21C\uD558\uACE0 \uACF5\uACA9\uC801\uC774\uC5C8\uC2B5\uB2C8\uB2E4."
+  - unitType: 22
+    dialogSprite: {fileID: -2040348199, guid: 44a0a09bb6ac63d4eae96fb32c6531df, type: 3}
+    infoSprite: {fileID: -2040348199, guid: 44a0a09bb6ac63d4eae96fb32c6531df, type: 3}
+    name: "\uC5B4\uB9B0 \uD30C\uB780 \uD669\uC18C \uC600\uB358 \uAC83"
+    description: "\uD55C \uB54C\uB294 \uC720\uC21C\uD558\uACE0 \uACF5\uACA9\uC801\uC774\uC5C8\uC2B5\uB2C8\uB2E4."
+  - unitType: 23
+    dialogSprite: {fileID: 21300000, guid: 48969aeb98fad6748bc15998d9c9e562, type: 3}
+    infoSprite: {fileID: 21300000, guid: 48969aeb98fad6748bc15998d9c9e562, type: 3}
+    name: "\uC778\uB514\uC5B8 \uBCF4\uC774"
+    description: "\uC778\uB514\uC5B8\uC774\uACE0 \uB0A8\uC790\uC785\uB2C8\uB2E4."
+  - unitType: 24
+    dialogSprite: {fileID: 21300000, guid: 48969aeb98fad6748bc15998d9c9e562, type: 3}
+    infoSprite: {fileID: 21300000, guid: 48969aeb98fad6748bc15998d9c9e562, type: 3}
+    name: "\uC6C0\uC9C1\uC774\uC9C0 \uC54A\uB294 \uC778\uB514\uC5B8 \uBCF4\uC774"
+    description: "\uC8FD\uC740 \uCC99\uC744 \uD558\uACE0 \uC788\uC2B5\uB2C8\uB2E4.\n\uB354
+      \uACF5\uACA9 \uBC1B\uC73C\uBA74 \uB3C4\uB9DD\uAC08 \uAC83 \uAC19\uC2B5\uB2C8\uB2E4."
+  - unitType: 25
+    dialogSprite: {fileID: 21300000, guid: c11232ef3c2006d488c07e28199b38ff, type: 3}
+    infoSprite: {fileID: 21300000, guid: c11232ef3c2006d488c07e28199b38ff, type: 3}
+    name: "\uC778\uB514\uC5B8 \uAC78"
+    description: "\uC778\uB514\uC5B8\uC774\uACE0 \uC5EC\uC790\uC785\uB2C8\uB2E4."
+  - unitType: 2
+    dialogSprite: {fileID: -4979476956480188833, guid: ca38f9313e7e1fe4590a4adbe55532c9, type: 3}
+    infoSprite: {fileID: -4979476956480188833, guid: ca38f9313e7e1fe4590a4adbe55532c9, type: 3}
+    name: "\uD50C\uB808\uC774\uC5B4"
+    description: "\uD50C\uB808\uC774\uC5B4\uC785\uB2C8\uB2E4."
+  - unitType: 0
+    dialogSprite: {fileID: 21300000, guid: 3b48437acd334234887198ae2209d372, type: 3}
+    infoSprite: {fileID: 21300000, guid: 3b48437acd334234887198ae2209d372, type: 3}
+    name: None
+    description: "\uC5C6\uC5B4\uC694."
+  - unitType: 12
+    dialogSprite: {fileID: 21300000, guid: 4dd3b4d5a30bbcb449ad3c1982548afe, type: 3}
+    infoSprite: {fileID: 21300000, guid: 4dd3b4d5a30bbcb449ad3c1982548afe, type: 3}
+    name: "\uC758\uC790"
+    description: "\uC549\uC744 \uC218 \uC5C6\uC2B5\uB2C8\uB2E4."
+  - unitType: 13
+    dialogSprite: {fileID: 21300000, guid: 62b27dd69a5ffed4ca22d941592cec7d, type: 3}
+    infoSprite: {fileID: 21300000, guid: 62b27dd69a5ffed4ca22d941592cec7d, type: 3}
+    name: "\uD0C1\uC790"
+    description: "\uC62C\uB77C\uAC08 \uC218 \uC5C6\uC2B5\uB2C8\uB2E4."
+  - unitType: 14
+    dialogSprite: {fileID: 21300000, guid: c5aba081a5a8c284c8f773734e7dc8b7, type: 3}
+    infoSprite: {fileID: 21300000, guid: c5aba081a5a8c284c8f773734e7dc8b7, type: 3}
+    name: "\uC624\uD06C\uD1B5"
+    description: "\uC548\uC5D0 \uC220\uC740 \uC5C6\uC2B5\uB2C8\uB2E4."
+  - unitType: 27
+    dialogSprite: {fileID: 21300000, guid: 42d2914fca4bbfb48b7b7d79eab8b2af, type: 3}
+    infoSprite: {fileID: 21300000, guid: 42d2914fca4bbfb48b7b7d79eab8b2af, type: 3}
+    name: "\uC120\uC778\uC7A5"
+    description: "\uC190\uC744 \uB300\uBA74 \uC544\uD50C\uC9C0 \uC54C\uC544 \uBCFC
+      \uC218 \uC788\uB294 \uC2DC\uC2A4\uD15C\uC744 \uAD6C\uD604\uD558\uC9C0 \uC54A\uC558\uC2B5\uB2C8\uB2E4."
+  - unitType: 28
+    dialogSprite: {fileID: 21300000, guid: 3659e5b92c652514c86aef46f49c0d69, type: 3}
+    infoSprite: {fileID: 21300000, guid: 3659e5b92c652514c86aef46f49c0d69, type: 3}
+    name: "\uC0AC\uB78C\uC778\uCC99 \uD558\uB294 \uC120\uC778\uC7A5"
+    description: "\uC8FD\uC5B4\uB3C4 \uBD80\uD65C\uD569\uB2C8\uB2E4. \uBB34\uD55C\uC73C\uB85C."
+  - unitType: 26
+    dialogSprite: {fileID: 21300000, guid: c11232ef3c2006d488c07e28199b38ff, type: 3}
+    infoSprite: {fileID: 21300000, guid: c11232ef3c2006d488c07e28199b38ff, type: 3}
+    name: "\uC6C0\uC9C1\uC774\uC9C0 \uC54A\uB294 \uC778\uB514\uC5B8 \uAC78"
+    description: "\uC8FD\uC740 \uCC99\uC744 \uD558\uACE0 \uC788\uC2B5\uB2C8\uB2E4.\n\uB354
+      \uACF5\uACA9 \uBC1B\uC73C\uBA74 \uB3C4\uB9DD\uAC08 \uAC83 \uAC19\uC2B5\uB2C8\uB2E4."

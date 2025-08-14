@@ -1,0 +1,98 @@
+﻿[
+  {
+    "ID": 0,
+    "nameKey": "리로드",
+    "flavorTextKey": "일반 카드 추가",
+    "effects": [
+      10000
+    ],
+    "cost": 3,
+    "img": "temp",
+    "isGun": 0,
+    "rarity": 2
+  },
+  {
+    "ID": 100,
+    "nameKey": "다이너마이트",
+    "flavorTextKey": "일반 공격",
+    "effects": [
+      100
+    ],
+    "cost": 4,
+    "img": "temp",
+    "isGun": 0,
+    "rarity": 0
+  },
+  {
+    "ID": 200,
+    "nameKey": "가죽 갑옷",
+    "flavorTextKey": "일반 방어력",
+    "effects": [
+      200
+    ],
+    "cost": 3,
+    "img": "temp",
+    "isGun": 0,
+    "rarity": 0
+  },
+  {
+    "ID": 300,
+    "nameKey": "맥주",
+    "flavorTextKey": "일반 치료",
+    "effects": [
+      300
+    ],
+    "cost": 3,
+    "img": "temp",
+    "isGun": 0,
+    "rarity": 0
+  },
+  {
+    "ID": 1100,
+    "nameKey": "섬광탄",
+    "flavorTextKey": "일반 스턴",
+    "effects": [
+      1100
+    ],
+    "cost": 3,
+    "img": "temp",
+    "isGun": 0,
+    "rarity": 1
+  },
+  {
+    "ID": 1200,
+    "nameKey": "횃불",
+    "flavorTextKey": "일반 화상",
+    "effects": [
+      1200
+    ],
+    "cost": 3,
+    "img": "temp",
+    "isGun": 0,
+    "rarity": 1
+  },
+  {
+    "ID": 1300,
+    "nameKey": "독약",
+    "flavorTextKey": "일반 중독",
+    "effects": [
+      1300
+    ],
+    "cost": 3,
+    "img": "temp",
+    "isGun": 0,
+    "rarity": 1
+  },
+  {
+    "ID": 10100,
+    "nameKey": "일반탄",
+    "flavorTextKey": "일반 총알",
+    "effects": [
+      100
+    ],
+    "cost": 3,
+    "img": "temp",
+    "isGun": 1,
+    "rarity": 0
+  }
+]

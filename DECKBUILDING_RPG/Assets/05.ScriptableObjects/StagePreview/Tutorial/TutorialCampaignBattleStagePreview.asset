@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be5a7d3e5d21ffd4bb7e72e38faefae7, type: 3}
+  m_Name: TutorialCampaignBattleStagePreview
+  m_EditorClassIdentifier: 
+  radius: 5
+  stageType: 7
+  stageNPCTable:
+    fixedNPCPrefaEntries:
+    - prefab: {fileID: 8334389866706994609, guid: bbf6c39f8eec66749870eda8d6edd3c6, type: 3}
+      isNPCCoordFixed: 0
+      npcHexCoord:
+        q: 0
+        r: 0
+    - prefab: {fileID: 8334389866706994609, guid: bbf6c39f8eec66749870eda8d6edd3c6, type: 3}
+      isNPCCoordFixed: 0
+      npcHexCoord:
+        q: 0
+        r: 0
+    randomNPCPrefabEntries:
+    - prefab: {fileID: 8334389866706994609, guid: 678ee8871fe35c44ea4189279dd010a5, type: 3}
+      weight: 1
+    - prefab: {fileID: 8334389866706994609, guid: 8fac320c4dd558244b656ccb63dc164b, type: 3}
+      weight: 1
+    randomSpawnCount: 4
+  elevationSeedRules:
+  - elevation: 1
+    count: 3
+    spreadRange: 1
+    receiveRange: 1
+  elevationMap:
+  - minHeight: 2
+    maxHeight: 2
+    tileType: 19
+  - minHeight: 0
+    maxHeight: 1
+    tileType: 18
+  cliffHeightThreshold: 2
+  allowWater: 1
+  allowCliff: 1
+  allowBridge: 1
+  isPlayerCoordFixed: 1
+  playerHexCoord:
+    q: 0
+    r: 0

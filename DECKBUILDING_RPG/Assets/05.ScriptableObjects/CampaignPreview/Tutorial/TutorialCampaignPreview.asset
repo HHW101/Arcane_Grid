@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 358c73420f51abc4f8337f9c9d63eeb3, type: 3}
+  m_Name: TutorialCampaignPreview
+  m_EditorClassIdentifier: 
+  floorStageTableList:
+  - floorStageCount: 1
+    weightedStageEntryList:
+    - stagePreviewSO: {fileID: 11400000, guid: ab266c2e45cd2de4a87216cd21bad418, type: 2}
+      weight: 1
+  - floorStageCount: 2
+    weightedStageEntryList:
+    - stagePreviewSO: {fileID: 11400000, guid: 2b0e2b2e7abdb774c98a3b41c08831dd, type: 2}
+      weight: 1
+  - floorStageCount: 2
+    weightedStageEntryList:
+    - stagePreviewSO: {fileID: 11400000, guid: 9ded9ed03a86522458f3aba681535adf, type: 2}
+      weight: 1
+  - floorStageCount: 1
+    weightedStageEntryList:
+    - stagePreviewSO: {fileID: 11400000, guid: f3d301b9f1b8c5e4b951cd83554075fb, type: 2}
+      weight: 1
+  campaignName: "\uD29C\uD1A0\uB9AC\uC5BC"
+  campaignDescription: Tutorial Campaign, Learn Rule of Game
+  campaignSprite: {fileID: 21300000, guid: dedddaaffdef5f043b2b7f4446606dc0, type: 3}
+  campaignTypeEnum: 0

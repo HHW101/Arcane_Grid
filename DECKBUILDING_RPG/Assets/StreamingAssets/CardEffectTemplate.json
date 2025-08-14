@@ -1,0 +1,58 @@
+﻿[
+  {
+    "ID": 100,
+    "nameKey": "공격",
+    "type": 0,
+    "value": 5,
+    "range": 1,
+    "isTargetSelf": 0
+  },
+  {
+    "ID": 200,
+    "nameKey": "방어",
+    "type": 1,
+    "value": 3,
+    "range": 1,
+    "isTargetSelf": 1
+  },
+  {
+    "ID": 300,
+    "nameKey": "회복",
+    "type": 2,
+    "value": 5,
+    "range": 1,
+    "isTargetSelf": 1
+  },
+  {
+    "ID": 1100,
+    "nameKey": "스턴",
+    "type": 10,
+    "value": 3,
+    "range": 3,
+    "isTargetSelf": 0
+  },
+  {
+    "ID": 1200,
+    "nameKey": "화상",
+    "type": 11,
+    "value": 3,
+    "range": 2,
+    "isTargetSelf": 0
+  },
+  {
+    "ID": 1300,
+    "nameKey": "독",
+    "type": 12,
+    "value": 3,
+    "range": 2,
+    "isTargetSelf": 0
+  },
+  {
+    "ID": 10000,
+    "nameKey": "카드 뽑기",
+    "type": 1000,
+    "value": 2,
+    "range": 0,
+    "isTargetSelf": 1
+  }
+]

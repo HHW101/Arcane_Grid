@@ -1,0 +1,164 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8814195283476359398
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 653618734631566995}
+  - component: {fileID: 6378225674824375963}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &653618734631566995
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8814195283476359398}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6378225674824375963
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8814195283476359398}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 524c41fb49c9bb24a88276a3058820a4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameManagerParam:
+    saveManagerParam:
+      saveDataPath: Save/save.json
+      defaultSaveDataPath: Save/DefaultSave/defaultSave.json
+      abortSceneNameList:
+      - 0_StartScene
+      - 1_CampaignEnterScene
+      stageSceneNameList:
+      - 5_StageScene
+    campaignManagerParam:
+      stageManagerParam:
+        tileRadius: 2
+        turnManagerParam:
+          statusEffectBookSO: {fileID: 11400000, guid: 26bc6bf59c08683418cbccf82998c274, type: 2}
+          waitTimeBeforeStartNextProgress: 1.5
+        stageStoryManagerParam:
+          announceBookSO: {fileID: 11400000, guid: 1d315e4451b73e3439cc069264399fb8, type: 2}
+      tileMapSO: {fileID: 11400000, guid: e20cc6c5fdeab3746b18df7e10777f3e, type: 2}
+      campaignPreviewList:
+      - {fileID: 11400000, guid: bb06bdd86ea257149bd1ee9915dd960d, type: 2}
+    jobManagerParam:
+      jobSODir: Prefabs/ScriptableObject/JobSO
+    cameraManagerParam:
+      mainCamera: {fileID: 0}
+      brain: {fileID: 0}
+      defaultCamera: {fileID: 0}
+    poolManagerParam:
+      poolList:
+      - key: DamageText
+        prefab: {fileID: 1966998909812738054, guid: fe14808eb6e31514182a02f14e1b1c54, type: 3}
+        poolSize: 5
+      - key: PlayerProjectile
+        prefab: {fileID: 9025972136549384779, guid: d89e729d76b1a4146a42b340eb9a0809, type: 3}
+        poolSize: 5
+      - key: BulletCardObject
+        prefab: {fileID: 9203828209207281779, guid: d40f30834bc769845a9604272c4d4939, type: 3}
+        poolSize: 10
+      - key: CardObject
+        prefab: {fileID: 9203828209207281779, guid: 73cd84742941d6f4a808e75506def3ff, type: 3}
+        poolSize: 10
+      - key: HealCardObject
+        prefab: {fileID: 9203828209207281779, guid: 87d30d82b39294146a0049dc1696c401, type: 3}
+        poolSize: 10
+      - key: CardImage
+        prefab: {fileID: 1895467399776610160, guid: 11a518298a0548e42b01711f2782d77b, type: 3}
+        poolSize: 50
+      - key: CardImageDrag
+        prefab: {fileID: 1895467399776610160, guid: ef8d40035ec82264c820da3def8c7258, type: 3}
+        poolSize: 50
+      - key: HealEffect
+        prefab: {fileID: 4619245252768689579, guid: 67f1075c5f0627e43a4a56bf7b178b09, type: 3}
+        poolSize: 10
+      - key: ExplotionEffect
+        prefab: {fileID: 1490982395372144064, guid: a9ad5f8c958bead4eb93ae48304d5dd9, type: 3}
+        poolSize: 10
+      - key: FireBallEffect
+        prefab: {fileID: 875474240689059466, guid: 621979ee85f98d640b2eef989bf7afef, type: 3}
+        poolSize: 10
+      - key: FireEffect
+        prefab: {fileID: 8025212057403751637, guid: a3c1d4055c087de4a9389422bcf6f412, type: 3}
+        poolSize: 10
+      - key: ElectricEffect
+        prefab: {fileID: 3074648566659288174, guid: 6a89316791f8f7c4bbe3b7a7ff4ffb0d, type: 3}
+        poolSize: 10
+      - key: CardImageSelect
+        prefab: {fileID: 1895467399776610160, guid: bd599106e7ed03542b7bcb153a0fdbbf, type: 3}
+        poolSize: 5
+      - key: PoisonEffect
+        prefab: {fileID: 141964708477138120, guid: 7379440f9b4b70e4aab024e3c8cdbfb7, type: 3}
+        poolSize: 5
+      - key: ArmorEffect
+        prefab: {fileID: 141964708477138120, guid: efca85fffaa3aa94e855bbf29d457752, type: 3}
+        poolSize: 5
+    ruleManagerParam:
+      ruleBookSO: {fileID: 11400000, guid: 489e1c3a8ac66e346a4f85c9218932a8, type: 2}
+    enumAssociatedResourceManagerParam:
+      unitIdentifierTypeListSO: {fileID: 11400000, guid: 8f2c2f0b4f0aefd4e8adff9781b88de3, type: 2}
+      tileTypeListSO: {fileID: 11400000, guid: 8d26c052b662ec54fa68a65a8102e937, type: 2}
+      jobTypeListSO: {fileID: 11400000, guid: f871cbb5b545bc947b0b66215ca79543, type: 2}
+      unitTypeListSO: {fileID: 11400000, guid: a27211ba1700bac4ebdcef5d45c5bfc4, type: 2}
+      unitCampTypeListSO: {fileID: 11400000, guid: f21ff36b9fd7f9640bfb02d17a52d276, type: 2}
+      notFoundSprite: {fileID: 21300000, guid: 2e1fa1204dddf3c48bc881c860dcee7d, type: 3}
+      notFoundString: Not Found
+    audioManagerParam:
+      masterMixer: {fileID: 24100000, guid: 467db7182af03fe429eb8899edde3460, type: 2}
+      defaultBGM: {fileID: 8300000, guid: 84899f54abf09cb418761a099493c1d0, type: 3}
+      bgmGroup: {fileID: -4153676206233451771, guid: 467db7182af03fe429eb8899edde3460, type: 2}
+      sfxGroup: {fileID: -2229709780855277043, guid: 467db7182af03fe429eb8899edde3460, type: 2}
+      uiSfxClips:
+      - {fileID: 8300000, guid: b30e7e206e0c5cddf9c7f4d9791a3c8e, type: 3}
+      - {fileID: 8300000, guid: ff62f22700e1e46b7b5afcfaeabed680, type: 3}
+      - {fileID: 8300000, guid: b3956d694e38d9109bc53c2b350682be, type: 3}
+      - {fileID: 8300000, guid: 526eefc86463358579585529cc578a9c, type: 3}
+      - {fileID: 8300000, guid: 747029eee1e3e97669a8c17882db0f3a, type: 3}
+      - {fileID: 8300000, guid: 28c2e7303fc8605c9bb66371a22c1607, type: 3}
+      - {fileID: 8300000, guid: 41cbed983d02c734eaeff8f0b4a4280d, type: 3}
+      - {fileID: 8300000, guid: a696cd67748dc2e898b03289e7348039, type: 3}
+      inGameSfxClips:
+      - {fileID: 8300000, guid: 5df85fbb00336a2d7aa97a2bcd12d459, type: 3}
+      - {fileID: 8300000, guid: 78f91d28ee28c016a8a54ffe9a5cb431, type: 3}
+      - {fileID: 8300000, guid: b99f5f9d19da49380b531e1d6649a8de, type: 3}
+      - {fileID: 8300000, guid: 0e2a3c26154dfa76bb933a43a1362418, type: 3}
+      - {fileID: 8300000, guid: cadebfea8b8a85ff6a9db0f5d84195ad, type: 3}
+      - {fileID: 8300000, guid: 7c600bbf237427770996606d57ad7f0a, type: 3}
+      - {fileID: 8300000, guid: 78f91d28ee28c016a8a54ffe9a5cb431, type: 3}
+      - {fileID: 8300000, guid: c5f556ad28fe7924ab942845af325a75, type: 3}
+      - {fileID: 8300000, guid: 3fe7144c60c5c484e8316d6b33173590, type: 3}
+      - {fileID: 8300000, guid: 6e69934fc927443cc847725a655ad000, type: 3}
+      - {fileID: 8300000, guid: 919a3c581593d64488dc57d581b38cd7, type: 3}
+      - {fileID: 8300000, guid: 0f3a7188260cbab4e8cd698eb0ca1532, type: 3}
+      bgmClips:
+      - {fileID: 8300000, guid: 84899f54abf09cb418761a099493c1d0, type: 3}
+      - {fileID: 8300000, guid: 404d6a8081c304941a0c20afeb86112b, type: 3}
+      - {fileID: 8300000, guid: d72f2a6c67cd98146b7bd2c257d7075b, type: 3}
+      - {fileID: 8300000, guid: eb221a2b6d754bc4a89e18557012b3bf, type: 3}
+      - {fileID: 8300000, guid: 29dd52cfe177c6048bbc45326f36a5e0, type: 3}
+      - {fileID: 8300000, guid: a7c934e32336d9c47b4340e9df0be20c, type: 3}
+      - {fileID: 8300000, guid: edfbabfa74ab4244e97a03181ee9dafd, type: 3}

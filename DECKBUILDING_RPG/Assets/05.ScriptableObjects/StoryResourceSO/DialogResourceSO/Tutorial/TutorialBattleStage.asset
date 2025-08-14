@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34449bb2521a2ca47839b608c4fde6b1, type: 3}
+  m_Name: TutorialBattleStage
+  m_EditorClassIdentifier: 
+  dialogEntryList:
+  - leftDialogSpriteType: 2
+    rightDialogSpriteType: 0
+    leftShade: 0
+    rightShade: 0
+    dialogText: "\uC800\uAE30 \uBCF4\uC774\uB294\uAD70 .. \uADFC\uB370 \uC18C\uB77C\uACE0
+      \uD558\uAE30\uC5D0\uB294 .. \uC880 \uC0AC\uB098\uC6CC \uBCF4\uC774\uB294\uAC78"
+    leftFlip: 0
+    rightFlip: 0
+  - leftDialogSpriteType: 2
+    rightDialogSpriteType: 0
+    leftShade: 0
+    rightShade: 0
+    dialogText: "\uC77C\uB2E8 \uC870\uC0AC\uB97C\uC704\uD574 \uC7A1\uC544\uBCF4\uB3C4\uB85D
+      \uD560\uAE4C"
+    leftFlip: 0
+    rightFlip: 0
+  - leftDialogSpriteType: 0
+    rightDialogSpriteType: 0
+    leftShade: 0
+    rightShade: 0
+    dialogText: "\uD2B9\uC815 \uD0C0\uC77C\uC73C\uB85C\uB294 \uD2B9\uC815 \uD0C0\uC785\uC758
+      \uC720\uB2DB\uB9CC \uC774\uB3D9 \uAC00\uB2A5\uD558\uAC70\uB098, \uD2B9\uC815
+      \uD0C0\uC785\uC744 \uAC00\uC9C0\uC9C0 \uC54A\uC740 \uC720\uB2DB\uC774 \uC774\uB3D9\uD558\uAE30
+      \uBD88\uD3B8\uD569\uB2C8\uB2E4."
+    leftFlip: 0
+    rightFlip: 0
+  waitBetweenDialogSecond: 10
